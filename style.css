@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f4eeee;
+    border: 1px solid #93a8e3;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgb(69, 139, 183);
+    /* editable resume */
+    outline: none;
+}
+h1{
+    color: #097d9a;
+}
+section {
+    background-color: #fffefef2;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #e4da6e;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    margin-top: 0;
+  
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input{
+    width: 100%;
+    padding: 10px 5px;
+    margin-bottom: 20px;
+    border-radius: 6px;
+    border: 1px solid #249ebd;
+}
+
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px ;
+    border-radius: 6px;
+    border: 1px solid #249ebd;
+}
+
+button {
+    background-color: #2f16be;
+    color: #fff;
+    padding: 10px 20px; 
+    border: 1px solid ;
+    border-radius: 5px;
+}

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Editable Resume Builder</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Editable Resume Builder</h1>
+        </header>
+        <main>
+            <form id="resume-form">
+                <!-- Contact Information -->
+                <section>
+                    <h2>Personal Information</h2>
+                    <label for="name"><b>Name:</b></label>
+                    <input type="text" id="name"  placeholder="Enter your name" required><br> 
+                    <br>
+                    <label for="lastname"><b>Last Name:</b></label>
+                    <input type="text" id="last name"  placeholder= "Enter your lastname" required><br>
+                    <br>
+                    <label for="email"><b>Email:</b></label>
+                    <input type="text" id="email"  placeholder="Enter your email addres" required><br>
+                    <br>
+                    <label for="tel"><b>Phone No:</b></label>
+                    <input type="text" id="phone no"  placeholder="Enter your phone no" required><br>
+                    <br>
+                    <label for="country"><b>Country:</b></label>
+                    <input type="text" id="country"  placeholder="Enter your country" required><br>
+                    <br>
+                    <label for="city"><b>City:</b></label>
+                    <input type="text" id="city"  placeholder="Enter your country" required><br>
+                    <br>
+                </section>
+                  <!-- Education -->
+                  <section>
+                    <h2>Education</h2>
+                    <label for="degree"><b>Degree:</b></label>
+                    <input type="text" id="degree" placeholder="Enter your degree" required ><br><br>
+                    <label for="institute"><b>Institute:</b></label>
+                    <input type="text" id="institute" placeholder="Enter your institute" required><br><br>
+                    <label for="grad-date"><b>Years Of Education:</b></label>
+                    <input type="date" id="grad-date" ><br><br>
+                    <label for="grad-date"><b>Graduation Date:</b></label>
+                    <input type="date" id="grad-date"><br><br>
+                    <label for="Education"><b>Education Description:</b></label>
+                    <br>
+                    <br>
+                    <textarea id="Education" placeholder = "Enter your Education" rows="5" required></textarea>
+                </section>
+
+                   <!-- Work Experience -->
+                   <section>
+                    <h2>Work Experience</h2>
+                    <label for="job-title"><b>Job Title:</b></label>
+                    <input type="text" id="job-title" placeholder="Enter your job"><br><br>
+                    <label for="job-title"><b>Last Job:</b></label>
+                    <input type="text" id="last-job" placeholder="Enter your last job"><br><br>
+                    <label for="company"><b>Company:</b></label>
+                    <input type="text" id="company" placeholder="Enter your company name"><br><br>
+                    <label for="work-dates"><b>Employment Dates:</b></label>
+                    <input type="text" id="work-dates" placeholder="mm/dd/yy"><br><br>
+                    <label for="job-description"><b>Job Description:</b></label>
+                    <br><br>
+                    <textarea id="job-description" rows="5" placeholder="Enter your Experience"></textarea>
+                </section>
+                <!-- skills -->
+                 <section>
+                    <label for="Skills"><b>Skills:</b></label>
+                    <br><br>
+                    <textarea id="Skills" placeholder=" Enter your working skills" rows="5" required></textarea>
+                </section>
+                <br>
+                <br>
+
+                <form id="resume-form" contenteditable="true">
+                    <!-- ... -->
+                    <button id="generate-btn">Generate</button>
+                    <div id="generated-content"></div>
+                  </form>
+                
+
+    </div>
+            
+                <script src="script.js"></script>
+</body>
+</html>
